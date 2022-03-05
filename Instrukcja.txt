@@ -1,0 +1,23 @@
+Mini "dokumentacja" Projektu nr 3 na GK
+Autor: Łukasz Komoszyński 305932
+
+========= Klawiszologia =========
+
+	- Curves Manage - groupbox zawierający ustawienia krzywych
+		- Cyan/Magenta/Yellow/Black - wybór krzywej edytowanej za pomocą przsuwania punktów
+		- Show all curves - gdy jest zaznaczone pokazuje wszystkie krzywe, wpp. pokazuje tylko 
+				    edytowaną krzywą
+		- Recalculate on point move - gdy zaznaczone to na nowo separuje obraz przy "puszczeniu"
+					      przesuwanego punktu
+		- GCR/UCR/0% withdrawal/100% withrdrawal - ustawia krzywe na zdefiniowany profil i separuje obraz
+		- Save Curves - zapisuje do pliku aktualny stan krzywych
+		- Load Curves - odczytuje krzywe z pliku i na nowo separuje obraz
+	- Visible Image - groupbox z wyborem aktualnie widocznej warstwy
+	- Select Image - wybór obrazu do separacji
+	- Show All Images - po kliknięciu pokazuje się nowe okno z rozdzielonymi warstwami
+	- Save Images - Zapisuje rozdzielone warstwy do pliku z przedrostkiem wskazującym na kolor oraz opcjonalnie
+			z przedrostkiem _blackAndWhite jeśli warstwy są wyświetlane jako czarno-białe
+	- Force Redraw - wymusza ponowną separację kolorów
+	- Picures in black and white - gdy jest zaznaczone to wszystkie warstwy wyświetlają się jako czarnobiałe
+
+Pasek postępu po prawej stronie wskazuje na postęp w separacji kolorów. Przykładowe obrazy dostępne są w folderze Images
